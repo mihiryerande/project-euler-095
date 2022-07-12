@@ -18,7 +18,10 @@
 #
 #     Find the smallest member of the longest amicable chain with no element exceeding one million.
 
-def main(n):
+from typing import List
+
+
+def main(n: int) -> List[int]:
     """
     Returns the longest amicable chain where no elements exceed `n`.
     The chain is returned such that the least element in the loop is the first array element.
